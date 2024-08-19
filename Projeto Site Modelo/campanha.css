@@ -1,0 +1,39 @@
+body {
+    background: darkkhaki url(assets/fundo.png);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+    background-color: darkkhaki;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: peru;
+}
+
+h2 {
+    text-align: center;
+}
+
+.campanha {
+    padding: 0px 50px;
+}
+
+.negrito {
+    font-weight:bold;
+    text-align: center;
+}
+
+.img-campanha {
+    border: 10px solid #c3c3ea;
+}
